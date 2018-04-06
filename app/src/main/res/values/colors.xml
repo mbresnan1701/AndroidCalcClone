@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="color_orange">#e68267</color>
+    <color name="blue_text">#398DD1</color>
+    <color name="gray_text">#7B7B7B</color>
+    <color name="equals_background">#5DA8E3</color>
+    <color name="button_border">#E3E7EA</color>
+    <color name="display_background">#F4F6F8</color>
+    <color name="backspace_button">#4F90C5</color>
 </resources>
