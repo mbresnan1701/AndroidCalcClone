@@ -18,14 +18,37 @@
             android:background="@color/display_background">
 
             <Button
-                android:id="@+id/button18"
+                android:id="@+id/backspace_button"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="42dp"
+                android:layout_marginBottom="16dp"
+                android:alpha=".6"
+                android:background="@android:color/transparent"
                 android:text="@string/backspace"
                 android:textColor="@color/backspace_button"
-                android:textSize="24sp"
+                android:textSize="26sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/displayLabel"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/black"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="30sp"
+                android:windowSoftInputMode="stateAlwaysHidden|adjustNothing"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
         </android.support.constraint.ConstraintLayout>
 
         <TableLayout
